@@ -20,7 +20,7 @@
 	interhash = "7cc0e8e0f37b53c457dc9911449472d2",
 	intrahash = "d3176acdab17381ea824715934dc357e",
 	keywords = "dblp",
-	pages = "745--750",
+	pages = "745–750",
 	publisher = "IEEE",
 	title = "{Mapping and path planning in complex environments: An obstacle avoidance approach for an unmanned helicopter.}",
 	url = "http://dblp.uni-trier.de/db/conf/icra/icra2011.html#AndertAGD11; http://dx.doi.org/10.1109/ICRA.2011.5979535; http://www.bibsonomy.org/bibtex/2d3176acdab17381ea824715934dc357e/dblp",
@@ -94,7 +94,7 @@
 	intrahash = "ca5ec7ae72ee6f69a1b442ab6a2d8e8b",
 	keywords = "dblp",
 	localfile = "/home/ben/Dissertation/literature/triebel2006-IROS-Multi_Level_Surface_Maps_for_Outdoor_Terrain_Mapping_and_Loop_Closing.pdf",
-	pages = "2276--2282",
+	pages = "2276–2282",
 	title = "{Multi-Level Surface Maps for Outdoor Terrain Mapping and Loop Closing.}",
 	url = "http://dblp.uni-trier.de/db/conf/iros/iros2006.html#TriebelPB06; http://dx.doi.org/10.1109/IROS.2006.282632; http://www.bibsonomy.org/bibtex/2ca5ec7ae72ee6f69a1b442ab6a2d8e8b/dblp",
 	x-fetchedfrom = "Bibsonomy"
@@ -118,7 +118,7 @@
 	interhash = "764279a54591c8772f63618bd9042e17",
 	intrahash = "1811b35811d85a484058b3818b1489cb",
 	keywords = "dblp",
-	pages = "417--422",
+	pages = "417–422",
 	title = "{Data acquisition and view planning for 3-D modeling tasks}",
 	url = "http://dblp.uni-trier.de/db/conf/iros/iros2007.html#BlaerA07; http://dx.doi.org/10.1109/IROS.2007.4399581; http://www.bibsonomy.org/bibtex/21811b35811d85a484058b3818b1489cb/dblp",
 	x-fetchedfrom = "Bibsonomy"
@@ -133,11 +133,82 @@
 	interhash = "85c6591fb9dbc9857b892eb4d4f1b2b2",
 	intrahash = "60e90ef9e9d84350de5a669dd2168c2a",
 	keywords = "dblp",
-	pages = "2806--2811",
+	pages = "2806–2811",
 	publisher = "IEEE",
 	title = "{Choosing where to go: Complete 3D exploration with stereo.}",
 	url = "http://dblp.uni-trier.de/db/conf/icra/icra2011.html#ShadeN11; http://dx.doi.org/10.1109/ICRA.2011.5980121; http://www.bibsonomy.org/bibtex/260e90ef9e9d84350de5a669dd2168c2a/dblp",
 	x-fetchedfrom = "Bibsonomy",
+	year = "2011"
+}
+
+@inproceedings{ieee5354494,
+	abstract = "This paper presents a vision-based navigation strategy for a vertical take-off and landing (VTOL) unmanned aerial vehicle (UAV) using a single embedded camera observing natural landmarks. In the proposed approach, images of the environment are first sampled and stored as a set of ordered key images (visual path) and organized providing a visual memory of the environment. The robot navigation task is then defined as a concatenation of visual path subsets (called visual route) linking the current observed image and a target image belonging to the visual memory. The UAV is controlled to reach each image of the visual route using a vision-based control law adapted to its dynamic model and without explicitly planning any trajectory. This framework is largely substantiated by experiments with a X4-flyer equipped with a fisheye camera.",
+	arnumber = "5354494",
+	author = "Courbon, J. and Mezouar, Y. and Guenard, N. and Martinet, P.",
+	crossref = "conf/iros/2009",
+	doi = "10.1109/IROS.2009.5354494",
+	keywords = "aerospace robotics; helicopters; image sampling; mobile robots; robot vision; X4-flyer; embedded camera; fisheye camera; image sampling; quadrotor aerial vehicle; vertical take-off and landing unmanned aerial vehicle; vision-based control law; vision-based navigation strategy; visual memory; visual navigation; visual path subsets concatenation; Cameras; Global Positioning System; Intelligent robots; Joining processes; Robot vision systems; Satellite navigation systems; Simultaneous localization and mapping; Trajectory; USA Councils; Unmanned aerial vehicles",
+	pages = "5315–5320",
+	title = "{Visual navigation of a quadrotor Aerial Vehicle}",
+	x-fetchedfrom = "IEEEXplore"
+}
+
+@inproceedings{mobarhani2011iros,
+	abstract = "Build a 2d gridmap, extract frontiers, done. This paper proposes a method for mobile robot exploration based on the idea of frontier exploration which suggests navigating the robot toward the boundaries between free and unknown areas in the map. A global occupancy grid map of the environment is constantly updated, based on which a global frontier map is calculated. Then, a histogram based approach is adopted to cluster frontier cells and score these clusters based on their distance from the robot as well as the number of frontier cells they contain. In each stage of the algorithm, a sub-goal is set for the robot to navigate. A combination of distance transform and A* search algorithms is utilized to generate a plausible path toward the sub-goal through the free space. This way keeping a reliable distance from obstacles is guaranteed while searching for the shortest path toward the sub-goal. When such a path is generated, a B-spline interpolated and smoothed trajectory is produced as the control reference for the mobile robot to follow. The whole process is iterated until no unexplored area remains in the map. The efficiency of the method is shown through simulated and real experiments.",
+	arnumber = "6095018",
+	author = "Mobarhani, Amir and Nazari, Shaghayegh and Tamjidi, Amir H. and Taghirad, H.D.",
+	crossref = "conf/iros/2011",
+	doi = "10.1109/IROS.2011.6095018",
+	issn = "2153-0858",
+	keywords = "Image resolution; Navigation; Reliability; Robots; Tracking; Mobile Robot Exploration; Path Planning; Path Tracking",
+	localfile = "/home/ben/Dissertation/literature/mobarhani2011_IROS_Histogram_Based_Frontier_Exploration.pdf",
+	pages = "1128–1133",
+	title = "{Histogram based frontier exploration}",
+	x-fetchedfrom = "IEEEXplore"
+}
+
+@inproceedings{cheng2008,
+	abstract = "In this paper, we study the time-optimal trajectory planning of a sensor attached to an unmanned aerial vehicle (UAV) to provide complete 3-dimensional coverage with applications to urban environments with 2.5-dimensional features. The basic approach is to approximate the features of interest with a set of non planar coverage surfaces and to design a motion plan that guarantees the coverage surface is swept completely with a conical-field-of-view sensor. We establish a lower bound on time for a UAV to achieve complete coverage and derive the analytical coverage plan whose duration is a constant times this lower bound. Our hardware-in-the-loop simulation results verify the effectiveness of the proposed algorithm.",
+	arnumber = "4650988",
+	author = "Cheng, Peng and Keller, J. and Kumar, V.",
+	crossref = "conf/iros/2008",
+	doi = "10.1109/IROS.2008.4650988",
+	keywords = "aerospace robotics; aircraft; mobile robots; path planning; remotely operated vehicles; 3D urban structure coverage; conical-field-of-view sensor; hardware-in-the-loop simulation results; time-optimal UAV trajectory planning; unmanned aerial vehicle; Computational modeling; Robot sensing systems; Robots; Solid modeling; Three dimensional displays; Unmanned aerial vehicles; Vehicles",
+	localfile = "/home/ben/Dissertation/literature/cheng2008-IROS-time_optimal_uav_trajectory_planning_for_3d_urban_structure_coverage.pdf",
+	pages = "2750–2757",
+	title = "{Time-optimal UAV trajectory planning for 3D urban structure coverage}",
+	x-fetchedfrom = "IEEEXplore"
+}
+
+@inproceedings{holenstein2011iros,
+	abstract = "The generation of accurate, watertight, three-dimensional models of environments are often crucial for the purposes of scientific study and infrastructure management. Most commonly, such models are acquired by using range sensors producing point clouds, and further processing steps are required for the construction of a surface model. We used a mobile lidar to map several kilometers of a natural cave system in order to obtain 3D volumetric models for use in scientific research studying the local palaeo-climatic record. For unstructured and GPS-denied environments, such as cave systems, the process of acquiring a complete map is difficult and further complicated by limited mobility within the cave. During the mapping process, many unwanted measurements occur due to occlusions from moving objects such as other people present in the cave. Most common point cloud surface reconstruction techniques are not designed to deal these occlusions; i.e., they require manual cleanup of the data set or are not capable of generating watertight surfaces. The large scale of the environments introduces the additional challenge of dealing with memory limitations. We propose a new volume-based approach to reconstruct a watertight surface from range measurements of enclosed environments without limitation on the scale of the collected data. Our approach carves all unoccupied voxels from the sensor to a triangulated and rasterized surface between successive scans, which is intended to fill in the missing data between the scan rays. The surface is then constructed from the isosurface between unoccupied and unknown cells. By decomposing the space, we are able to handle large-scale data without exceeding the memory limitation of a standard PC, at the cost of some additional computation time. The algorithm has been evaluated across several datasets within a variety of environments and observed to build more complete volumetric models than a simple space carving approach. We have mapped severa- kilometers of cave networks and, with the described method, produced watertight reconstructions suitable for further scientific analysis.",
+	arnumber = "6095145",
+	author = "Holenstein, Claude and Zlot, Robert and Bosse, Michael",
+	crossref = "conf/iros/2011",
+	doi = "10.1109/IROS.2011.6095145",
+	issn = "2153-0858",
+	keywords = "Isosurfaces; Measurement by laser beam; Sensors; Surface reconstruction; Surface treatment; Three dimensional displays; Tiles",
+	pages = "3830–3837",
+	title = "{Watertight surface reconstruction of caves from 3D laser data}",
+	x-fetchedfrom = "IEEEXplore"
+}
+
+@article{xiao2013jfr,
+	author = "Xiao, Junhao and Adler, Benjamin and Zhang, Houxiang and Zhang, Jianwei",
+	bibsource = "DBLP, http://dblp.uni-trier.de",
+	ee = "http://dx.doi.org/10.1002/rob.20107",
+	journal = "Journal of Field Robotics (accepted on March 7th, 2013)",
+	note = "http://tams.informatik.uni-hamburg.de/people/xiao/publications/Junhao\_JFR2013.pdf",
+	title = "{Planar Segments Based 3D Point Cloud Registration in Outdoor Environments}",
+	year = "2013"
+}
+
+@unpublished{potthast2011,
+	author = "Potthast, Christian and Sukhatme, Gaurav S.",
+	localfile = "/home/ben/Dissertation/literature/potthast2011-IROS.pdf",
+	month = sep,
+	note = "",
+	title = "{A probabilistic Framework for Next Best View Estimation in a Cluttered Environment}",
 	year = "2011"
 }
 
@@ -168,7 +239,7 @@
 	keywords = "3D plane SLAM; SLAM; fast plane detection; grid-based region growing; noisy range images; point cloud; region growing algorithm",
 	localfile = "/home/ben/Dissertation/literature/xiao2011-ICMA2011-Fast_Plane_Detection_for_SLAM_from_Noisy_Range_Images_in_Both_Structured_and_Unstructured_Environments.pdf",
 	month = aug,
-	pages = "1768--1773",
+	pages = "1768–1773",
 	title = "{Fast plane detection for SLAM from noisy range images in both structured and unstructured environments}",
 	year = "2011"
 }
@@ -181,11 +252,11 @@
 	issn = "0018-9251",
 	journal = "Aerospace and Electronic Systems, IEEE Transactions on",
 	keywords = "SLAM (robots); aerospace robotics; observability; path planning; position control; remotely operated vehicles; robust control; statistical analysis; 6-DoF simulator; UAV navigation; active control; airborne SLAM; observability analysis; path planning; robustness; simultaneous localisation and mapping; statistical estimation technique; unmanned aerial vehicle; Extraterrestrial measurements; Global Positioning System; Jamming; Navigation; Observability; Path planning; Simultaneous localization and mapping; Terrain mapping; Trajectory; Unmanned aerial vehicles",
+	month = jan,
 	number = "1",
-	pages = "261--280",
+	pages = "261–280",
 	title = "{Observability analysis and active control for airborne SLAM}",
 	volume = "44",
-	month = jan,
 	x-fetchedfrom = "IEEEXplore",
 	year = "2008"
 }
@@ -204,18 +275,6 @@
 	year = "2006"
 }
 
-@inproceedings{ieee5354494,
-	abstract = "This paper presents a vision-based navigation strategy for a vertical take-off and landing (VTOL) unmanned aerial vehicle (UAV) using a single embedded camera observing natural landmarks. In the proposed approach, images of the environment are first sampled and stored as a set of ordered key images (visual path) and organized providing a visual memory of the environment. The robot navigation task is then defined as a concatenation of visual path subsets (called visual route) linking the current observed image and a target image belonging to the visual memory. The UAV is controlled to reach each image of the visual route using a vision-based control law adapted to its dynamic model and without explicitly planning any trajectory. This framework is largely substantiated by experiments with a X4-flyer equipped with a fisheye camera.",
-	arnumber = "5354494",
-	author = "Courbon, J. and Mezouar, Y. and Guenard, N. and Martinet, P.",
-	doi = "10.1109/IROS.2009.5354494",
-	crossref = "conf/iros/2009",
-	keywords = "aerospace robotics; helicopters; image sampling; mobile robots; robot vision; X4-flyer; embedded camera; fisheye camera; image sampling; quadrotor aerial vehicle; vertical take-off and landing unmanned aerial vehicle; vision-based control law; vision-based navigation strategy; visual memory; visual navigation; visual path subsets concatenation; Cameras; Global Positioning System; Intelligent robots; Joining processes; Robot vision systems; Satellite navigation systems; Simultaneous localization and mapping; Trajectory; USA Councils; Unmanned aerial vehicles",
-	pages = "5315--5320",
-	title = "{Visual navigation of a quadrotor Aerial Vehicle}",
-	x-fetchedfrom = "IEEEXplore"
-}
-
 @inproceedings{Machmudah:2010:UBC:1830761.1830849,
 	acmid = "1830849",
 	address = "New York, NY, USA",
@@ -226,7 +285,7 @@
 	keywords = "bezier curve; genetic algorithm; maneuver planning",
 	location = "Portland, Oregon, USA",
 	numpages = "4",
-	pages = "2019--2022",
+	pages = "2019–2022",
 	publisher = "ACM",
 	series = "{GECCO '10}",
 	title = "{UAV bezier curve maneuver planning using genetic algorithm}",
@@ -243,10 +302,10 @@
 	doi = "10.1109/ROBOT.2007.363172",
 	issn = "1050-4729",
 	keywords = "SLAM (robots); aerospace robotics; aircraft control; helicopters; mobile robots; position control; remotely operated vehicles; robot vision; stereo image processing; 3D structure estimation; autonomous vision-based landing; flight control system; flight pattern; geo-referenced image; helicopter; model predictive control; recursive multiframe planar parallax algorithm; reference trajectory; terrain mapping; unmanned aerial vehicle; unmanned rotorcraft; Aerospace control; Cameras; Image analysis; Machine vision; Predictive control; Predictive models; Recursive estimation; Terrain mapping; Trajectory; Unmanned aerial vehicles",
-	pages = "1349--1356",
+	month = apr,
+	pages = "1349–1356",
 	title = "{Autonomous Vision-based Landing and Terrain Mapping Using an MPC-controlled Unmanned Rotorcraft}",
 	x-fetchedfrom = "IEEEXplore",
-	month = apr,
 	year = "2007"
 }
 
@@ -259,7 +318,7 @@
 	isbn = "3-540-48626-7, 978-3-540-48626-8",
 	location = "Lake Tahoe, NV",
 	numpages = "10",
-	pages = "534--543",
+	pages = "534–543",
 	publisher = "Springer-Verlag",
 	series = "{ISVC'06}",
 	title = "{Autonomous vehicle video aided navigation \&\#8211; coupling INS and video approaches}",
@@ -276,11 +335,11 @@
 	doi = "10.1109/ACC.2001.946095",
 	issn = "0743-1619",
 	keywords = "convex programming; linear systems; optimal control; predictive control; quadratic programming; time-varying systems; UAV; actuator failure; admissible path space; autonomous trajectory generation; constrained input/output space; convex optimization; feedforward nominal trajectory; flight control; flight trajectories; nonlinear model predictive control; operational capability; quadratic programming; receding-horizon optimal control; sensor failure; time-varying linear system; trajectory generation; unmanned air vehicle; urban terrain; Actuators; Aerospace control; Navigation; Optimal control; Predictive control; Predictive models; Remotely operated vehicles; Trajectory; Unmanned aerial vehicles; Vehicle dynamics",
-	pages = "2301--2308 vol.3",
+	pages = "2301–2308 vol.3",
 	title = "{Trajectory generation for a UAV in urban terrain, using nonlinear MPC}",
 	volume = "3",
-	year = "2001",
-	x-fetchedfrom = "IEEEXplore"
+	x-fetchedfrom = "IEEEXplore",
+	year = "2001"
 }
 
 @article{jstor40188597,
@@ -294,7 +353,7 @@
 	language = "English",
 	month = mar,
 	number = "1",
-	pages = "59--80",
+	pages = "59–80",
 	publisher = "Springer",
 	title = "{The Evolution of Global Positioning System (GPS) Technology}",
 	url = "http://www.jstor.org/stable/40188597",
@@ -313,7 +372,7 @@
 	keywords = "B-Spline curves; genetic algorithms; path planning; unmanned aerial vehicles",
 	location = "Atlanta, GA, USA",
 	numpages = "8",
-	pages = "1499--1506",
+	pages = "1499–1506",
 	publisher = "ACM",
 	series = "{GECCO '08}",
 	title = "{3-D path planning for the navigation of unmanned aerial vehicles by using evolutionary algorithms}",
@@ -333,7 +392,7 @@
 	language = "English",
 	month = sep,
 	number = "7",
-	pages = "1614--1619",
+	pages = "1614–1619",
 	publisher = "Wiley on behalf of the Wildlife Society",
 	title = "{Small Unmanned Aircraft Systems for Low-Altitude Aerial Surveys}",
 	url = "http://www.jstor.org/stable/40801523",
@@ -382,7 +441,7 @@
 	isbn = "978-3-905673-46-3",
 	location = "Barcelona, Spain",
 	numpages = "9",
-	pages = "125--133",
+	pages = "125–133",
 	publisher = "Eurographics Association",
 	series = "{SGP '07}",
 	title = "{Unconstrained isosurface extraction on arbitrary octrees}",
@@ -396,37 +455,10 @@
 	author = "Cocaud, Cedric and Jnifene, Amor and Kim, Bumsoo",
 	journal = "Canadian Journal of Remote Sensing",
 	number = "4",
-	pages = "405--417",
+	pages = "405–417",
 	title = "{Environment mapping using hybrid octree knowledge for UAV trajectory planning}",
 	volume = "34",
 	year = "2008"
-}
-
-@inproceedings{mobarhani2011iros,
-	abstract = "Build a 2d gridmap, extract frontiers, done. This paper proposes a method for mobile robot exploration based on the idea of frontier exploration which suggests navigating the robot toward the boundaries between free and unknown areas in the map. A global occupancy grid map of the environment is constantly updated, based on which a global frontier map is calculated. Then, a histogram based approach is adopted to cluster frontier cells and score these clusters based on their distance from the robot as well as the number of frontier cells they contain. In each stage of the algorithm, a sub-goal is set for the robot to navigate. A combination of distance transform and A* search algorithms is utilized to generate a plausible path toward the sub-goal through the free space. This way keeping a reliable distance from obstacles is guaranteed while searching for the shortest path toward the sub-goal. When such a path is generated, a B-spline interpolated and smoothed trajectory is produced as the control reference for the mobile robot to follow. The whole process is iterated until no unexplored area remains in the map. The efficiency of the method is shown through simulated and real experiments.",
-	arnumber = "6095018",
-	author = "Mobarhani, Amir and Nazari, Shaghayegh and Tamjidi, Amir H. and Taghirad, H.D.",
-	doi = "10.1109/IROS.2011.6095018",
-	issn = "2153-0858",
-	crossref = "conf/iros/2011",
-	keywords = "Image resolution; Navigation; Reliability; Robots; Tracking; Mobile Robot Exploration; Path Planning; Path Tracking",
-	localfile = "/home/ben/Dissertation/literature/mobarhani2011_IROS_Histogram_Based_Frontier_Exploration.pdf",
-	pages = "1128--1133",
-	title = "{Histogram based frontier exploration}",
-	x-fetchedfrom = "IEEEXplore"
-}
-
-@inproceedings{cheng2008,
-	abstract = "In this paper, we study the time-optimal trajectory planning of a sensor attached to an unmanned aerial vehicle (UAV) to provide complete 3-dimensional coverage with applications to urban environments with 2.5-dimensional features. The basic approach is to approximate the features of interest with a set of non planar coverage surfaces and to design a motion plan that guarantees the coverage surface is swept completely with a conical-field-of-view sensor. We establish a lower bound on time for a UAV to achieve complete coverage and derive the analytical coverage plan whose duration is a constant times this lower bound. Our hardware-in-the-loop simulation results verify the effectiveness of the proposed algorithm.",
-	arnumber = "4650988",
-	author = "Cheng, Peng and Keller, J. and Kumar, V.",
-	doi = "10.1109/IROS.2008.4650988",
-	crossref = "conf/iros/2008",
-	keywords = "aerospace robotics; aircraft; mobile robots; path planning; remotely operated vehicles; 3D urban structure coverage; conical-field-of-view sensor; hardware-in-the-loop simulation results; time-optimal UAV trajectory planning; unmanned aerial vehicle; Computational modeling; Robot sensing systems; Robots; Solid modeling; Three dimensional displays; Unmanned aerial vehicles; Vehicles",
-	localfile = "/home/ben/Dissertation/literature/cheng2008-IROS-time_optimal_uav_trajectory_planning_for_3d_urban_structure_coverage.pdf",
-	pages = "2750--2757",
-	title = "{Time-optimal UAV trajectory planning for 3D urban structure coverage}",
-	x-fetchedfrom = "IEEEXplore"
 }
 
 @article{banta2000nextbestview,
@@ -438,7 +470,7 @@
 	keywords = "dblp",
 	localfile = "/home/ben/Dissertation/literature/banta2000-a_next_best_view_system_for_autonomous_3d_object_reconstruction.pdf",
 	number = 5,
-	pages = "589--598",
+	pages = "589–598",
 	title = "{A next-best-view system for autonomous 3-D object reconstruction.}",
 	url = "http://dblp.uni-trier.de/db/journals/tsmc/tsmca30.html#BantaWDA00; http://dx.doi.org/10.1109/3468.867866; http://www.bibsonomy.org/bibtex/279fcced3b989c77ac77e7c97021cd5f3/dblp",
 	volume = 30,
@@ -453,10 +485,10 @@
 	booktitle = "{Robotics and Biomimetics, 2006. ROBIO '06. IEEE International Conference on}",
 	doi = "10.1109/ROBIO.2006.340199",
 	keywords = "approximation theory; computational complexity; sensor arrays; sensor fusion; 2D sensor location algorithm; NP-hard problem; approximate algorithms; art gallery problem; omnidirectional sensors; polynomial algorithms; Art; Biomimetics; Biosensors; Floors; Image sensors; Polynomials; Rendering (computer graphics); Robot sensing systems; Surveillance; Testing; Art gallery; image based rendering; sensor planning; sensor positioning; surveillance; visibility",
-	pages = "340--345",
+	month = dec,
+	pages = "340–345",
 	title = "{Experimental Results Show Near-Optimality Of A Sensor Location Algorithm}",
 	x-fetchedfrom = "IEEEXplore",
-	month = dec,
 	year = "2006"
 }
 
@@ -467,11 +499,11 @@
 	booktitle = "{Emerging Technologies and Factory Automation, 2005. ETFA 2005. 10th IEEE Conference on}",
 	doi = "10.1109/ETFA.2005.1612650",
 	keywords = "computer vision; position control; sensor fusion; NP-hard problem; art gallery problem; computer vision; integer covering algorithm; iterative algorithm; multiple sensor location; sensor location incremental algorithm; sensor positioning; Approximation algorithms; Art; Computer vision; Heuristic algorithms; Image reconstruction; Inspection; Iterative algorithms; Rendering (computer graphics); Sensor phenomena and characterization; Surveillance",
-	pages = "4 pp.--1092",
+	month = sep,
+	pages = "4 pp.–1092",
 	title = "{A practical iterative algorithm for sensor positioning}",
 	volume = "1",
 	x-fetchedfrom = "IEEEXplore",
-	month = sep,
 	year = "2005"
 }
 
@@ -484,7 +516,7 @@
 	isbn = "1-58113-357-X",
 	location = "Medford, Massachusetts, USA",
 	numpages = "9",
-	pages = "232--240",
+	pages = "232–240",
 	publisher = "ACM",
 	series = "{SCG '01}",
 	title = "{A randomized art-gallery algorithm for sensor placement}",
@@ -506,7 +538,7 @@
 	keywords = "algorithms; genetic programming",
 	month = mar,
 	notes = "part of \cite{koza:1997:GAGPs}",
-	pages = "110--119",
+	pages = "110–119",
 	publisher = "Stanford Bookstore",
 	title = "{Solving the Art Gallery Problem via Genetic Programming}",
 	x-fetchedfrom = "Bibsonomy",
@@ -536,7 +568,7 @@
 	isbn = "3-540-48626-7, 978-3-540-48626-8",
 	location = "Lake Tahoe, NV",
 	numpages = "10",
-	pages = "668--677",
+	pages = "668–677",
 	publisher = "Springer-Verlag",
 	series = "{ISVC'06}",
 	title = "{Next best view algorithms for interior and exterior model acquisition}",
@@ -553,24 +585,11 @@
 	doi = "10.1109/ICMA.2011.5986247",
 	issn = "2152-7431",
 	keywords = "SLAM (robots); image classification; mean square error methods; 3D plane simultaneous localization and mapping; SLAM; fast plane detection; grid-based region growing; linear grids; local shape information; neighborhood information; noisy range images; planar grids; plane fitting mean square error computation; point cloud; region growing algorithm; seed selection procedure; sparse grids; spherical grids; unstructured environments; Complexity theory; Eigenvalues and eigenfunctions; Noise measurement; Shape; Simultaneous localization and mapping; Transmission line matrix methods; 3D feature extraction; Plane detection; SLAM",
-	pages = "1768--1773",
+	month = aug,
+	pages = "1768–1773",
 	title = "{Fast plane detection for SLAM from noisy range images in both structured and unstructured environments}",
 	x-fetchedfrom = "IEEEXplore",
-	month = aug,
 	year = "2011"
-}
-
-@inproceedings{holenstein2011iros,
-	abstract = "The generation of accurate, watertight, three-dimensional models of environments are often crucial for the purposes of scientific study and infrastructure management. Most commonly, such models are acquired by using range sensors producing point clouds, and further processing steps are required for the construction of a surface model. We used a mobile lidar to map several kilometers of a natural cave system in order to obtain 3D volumetric models for use in scientific research studying the local palaeo-climatic record. For unstructured and GPS-denied environments, such as cave systems, the process of acquiring a complete map is difficult and further complicated by limited mobility within the cave. During the mapping process, many unwanted measurements occur due to occlusions from moving objects such as other people present in the cave. Most common point cloud surface reconstruction techniques are not designed to deal these occlusions; i.e., they require manual cleanup of the data set or are not capable of generating watertight surfaces. The large scale of the environments introduces the additional challenge of dealing with memory limitations. We propose a new volume-based approach to reconstruct a watertight surface from range measurements of enclosed environments without limitation on the scale of the collected data. Our approach carves all unoccupied voxels from the sensor to a triangulated and rasterized surface between successive scans, which is intended to fill in the missing data between the scan rays. The surface is then constructed from the isosurface between unoccupied and unknown cells. By decomposing the space, we are able to handle large-scale data without exceeding the memory limitation of a standard PC, at the cost of some additional computation time. The algorithm has been evaluated across several datasets within a variety of environments and observed to build more complete volumetric models than a simple space carving approach. We have mapped severa- kilometers of cave networks and, with the described method, produced watertight reconstructions suitable for further scientific analysis.",
-	arnumber = "6095145",
-	author = "Holenstein, Claude and Zlot, Robert and Bosse, Michael",
-	doi = "10.1109/IROS.2011.6095145",
-	issn = "2153-0858",
-	crossref = "conf/iros/2011",
-	keywords = "Isosurfaces; Measurement by laser beam; Sensors; Surface reconstruction; Surface treatment; Three dimensional displays; Tiles",
-	pages = "3830--3837",
-	title = "{Watertight surface reconstruction of caves from 3D laser data}",
-	x-fetchedfrom = "IEEEXplore"
 }
 
 @inproceedings{Null:2006:NBV:2092790.2092857,
@@ -582,7 +601,7 @@
 	isbn = "3-540-48626-7, 978-3-540-48626-8",
 	location = "Lake Tahoe, NV",
 	numpages = "10",
-	pages = "668--677",
+	pages = "668–677",
 	publisher = "Springer-Verlag",
 	series = "{ISVC'06}",
 	title = "{Next best view algorithms for interior and exterior model acquisition}",
@@ -594,7 +613,7 @@
 @inproceedings{connolly1985first_nbv,
 	author = "Connolly, C.",
 	booktitle = "{Robotics and Automation. Proceedings. 1985 IEEE International Conference on}",
-	pages = "432--435",
+	pages = "432–435",
 	title = "{The determination of next best views}",
 	volume = "2",
 	year = "1985"
@@ -611,7 +630,7 @@
 	keywords = "dblp",
 	localfile = "/home/ben/Dissertation/literature/scott2003nbvsurvey-10.1.1.86.4447.pdf",
 	number = 1,
-	pages = "64--96",
+	pages = "64–96",
 	title = "{View planning for automated three-dimensional object reconstruction and inspection}",
 	url = "http://dblp.uni-trier.de/db/journals/csur/csur35.html#ScottRR03; http://doi.acm.org/10.1145/641865.641868; http://www.bibsonomy.org/bibtex/260fca4e3680440058b179f8bdf2af729/dblp",
 	volume = 35,
@@ -627,7 +646,7 @@
 	doi = "10.1109/ISMAR.2011.6092378",
 	keywords = "Cameras; Image reconstruction; Iterative closest point algorithm; Real time systems; Simultaneous localization and mapping; Surface reconstruction; Three dimensional displays; AR; Dense Reconstruction; Depth Cameras; GPU; Real-Time; SLAM; Tracking; Volumetric Representation",
 	month = oct,
-	pages = "127--136",
+	pages = "127–136",
 	title = "{KinectFusion: Real-time dense surface mapping and tracking}",
 	x-fetchedfrom = "IEEEXplore",
 	year = "2011"
@@ -643,7 +662,7 @@
 	localfile = "/home/ben/Dissertation/literature/bell2005.pdf",
 	location = "Los Angeles, California",
 	numpages = "10",
-	pages = "77--86",
+	pages = "77–86",
 	publisher = "ACM",
 	series = "{SCA '05}",
 	title = "{Particle-based simulation of granular materials}",
@@ -668,7 +687,7 @@
 	journal = "I. J. Robotic Res.",
 	keywords = "dblp",
 	number = "10-11",
-	pages = "829--848",
+	pages = "829–848",
 	title = "{Navigation Strategies for Exploring Indoor Environments.}",
 	url = "http://dblp.uni-trier.de/db/journals/ijrr/ijrr21.html#Gonzalez-BanosL02; http://dx.doi.org/10.1177/0278364902021010834; http://www.bibsonomy.org/bibtex/2e03ab4c8d67db879c2b77079b8854839/dblp",
 	volume = 21,
@@ -677,11 +696,11 @@
 }
 
 @inproceedings{strand2010nbv,
-	booktitle = "Proceedings of the Fourth International Workshop on Robotics for risky interventions and Environmental Surveillance-Maintenance",
-	series = "{RISE’2010}",
-	month = jan,
 	address = "Sheffield, UK",
 	author = "Strand, Marcus and Dillmann, Rüdiger",
+	booktitle = "{Proceedings of the Fourth International Workshop on Robotics for risky interventions and Environmental Surveillance-Maintenance}",
+	month = jan,
+	series = "{RISE’2010}",
 	title = "{Grid based next best view planning for an autonomous robot in indoor environments}",
 	year = "2010"
 }
@@ -695,7 +714,7 @@
 	interhash = "ea45fd3310792abb7671456644a5cc33",
 	intrahash = "215352d5dc0782b0cdb360e363842c92",
 	keywords = "dblp",
-	pages = "47--53",
+	pages = "47–53",
 	title = "{Frontier-Based Exploration Using Multiple Robots.}",
 	url = "http://dblp.uni-trier.de/db/conf/agents/agents98.html#Yamauchi98; http://doi.acm.org/10.1145/280765.280773; http://www.bibsonomy.org/bibtex/2215352d5dc0782b0cdb360e363842c92/dblp",
 	x-fetchedfrom = "Bibsonomy",
@@ -711,58 +730,58 @@
 	issn = "1530-2075",
 	keywords = "merging; parallel algorithms; parallel architectures; shared memory systems; sorting; CUDA-based radix sorts; GPU architecture; comparison-based sort; fine-grained parallelism; high-performance parallel merge sort routines; high-performance parallel radix sort routines; high-speed onchip shared memory; manycore GPU; multicore CPU sorting routine; sorting algorithms; Algorithm design and analysis; Computer architecture; Concurrent computing; Data structures; Database systems; Global communication; Multicore processing; Parallel architectures; Parallel processing; Sorting",
 	month = may,
-	pages = "1--10",
+	pages = "1–10",
 	title = "{Designing efficient sorting algorithms for manycore GPUs}",
 	x-fetchedfrom = "IEEEXplore",
 	year = "2009"
 }
 
 @proceedings{conf/iros/2006,
-  title     = {2006 IEEE/RSJ International Conference on Intelligent Robots and Systems},
-  booktitle = {IROS},
-  publisher = {IEEE},
-  year      = {2006},
-  month     = oct,
-  address   = "Beijing, China"
+	address = "Beijing, China",
+	booktitle = "{IROS}",
+	month = oct,
+	publisher = "IEEE",
+	title = "{2006 IEEE/RSJ International Conference on Intelligent Robots and Systems}",
+	year = "2006"
 }
 
 @proceedings{conf/iros/2007,
-  title     = {2007 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 29 - November 2, 2007},
-  booktitle = {IROS},
-  publisher = {IEEE},
-  year      = {2007},
-  address = "Marina, San Diego, California, USA",
-  month = oct
+	address = "Marina, San Diego, California, USA",
+	booktitle = "{IROS}",
+	month = oct,
+	publisher = "IEEE",
+	title = "{2007 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 29 - November 2, 2007}",
+	year = "2007"
 }
 
 @proceedings{conf/iros/2008,
-  title     = {2008 IEEE/RSJ International Conference on Intelligent Robots and Systems},
-  booktitle = {IROS},
-  publisher = {IEEE},
-  year      = {2008},
-  month = sep,
-  address = "Acropolis Convention Center, Nice, France"
+	address = "Acropolis Convention Center, Nice, France",
+	booktitle = "{IROS}",
+	month = sep,
+	publisher = "IEEE",
+	title = "{2008 IEEE/RSJ International Conference on Intelligent Robots and Systems}",
+	year = "2008"
 }
 
 @proceedings{conf/iros/2009,
-  title     = {2009 IEEE/RSJ International Conference on Intelligent Robots and Systems},
-  booktitle = {IROS},
-  publisher = {IEEE},
-  year      = {2009},
-  month = oct,
-  address = "St. Louis, MO, USA"
+	address = "St. Louis, MO, USA",
+	booktitle = "{IROS}",
+	month = oct,
+	publisher = "IEEE",
+	title = "{2009 IEEE/RSJ International Conference on Intelligent Robots and Systems}",
+	year = "2009"
 }
 
 @proceedings{conf/iros/2011,
-  title     = {2011 IEEE/RSJ International Conference on Intelligent Robots and Systems},
-  booktitle = {IROS},
-  publisher = {IEEE},
-  year      = {2011},
-  isbn      = {978-1-61284-454-1},
-  ee        = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6034548},
-  month = sep,
-  address = "San Francisco, CA, USA",
-  bibsource = {DBLP, http://dblp.uni-trier.de}
+	address = "San Francisco, CA, USA",
+	bibsource = "DBLP, http://dblp.uni-trier.de",
+	booktitle = "{IROS}",
+	ee = "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6034548",
+	isbn = "978-1-61284-454-1",
+	month = sep,
+	publisher = "IEEE",
+	title = "{2011 IEEE/RSJ International Conference on Intelligent Robots and Systems}",
+	year = "2011"
 }
 
 @proceedings{conf/icra/2011,
@@ -773,4 +792,43 @@
   address   = "Shanghai, China",
   month = may,
   bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{borrmann2013,
+	author = "Borrmann, Dorit and de Rezende, Pedro J. and de Souza, Cid C. and Fekete, Sandor P. and Friedrich, Stephan and Kröller, Alexander and Nüchter, Andreas and Schmidt, Christiane and Tozoni, Davi C.",
+	booktitle = "{Proccedings of the 29th ACM Annual Symposium on Computational Geometry (SoCG '13)}",
+	localfile = "/home/ben/Dissertation/literature/borrmann2013-Point_Guards_and_Point_Clouds-Solving_general_Art_Gallery_Problems.pdf",
+	location = "Rio de Janeiro, Brazil",
+	month = jun,
+	title = "{Point Guards and Point Clouds: Solving general Art Gallery Problems}",
+	year = "2013"
+}
+
+@phdthesis{Fairfield2009phd,
+	localfile = "/home/ben/Dissertation/literature/fairfield2009_thesis_localization_mapping_planning_in_3d_environments.pdf"
+}
+
+@misc{mikrokopter_serial_protocol,
+	author = "Buss, Holger and Busker, Ingo",
+	howpublished = "\url{http://www.mikrokopter.de/ucwiki/en/SerialProtocol/}",
+	note = "[Online; accessed 12-October-2012]",
+	title = "{Mikrokopter Serial Protocol}",
+	year = "2012"
+}
+
+@inproceedings{bourgault2002iros,
+	doi = "10.1109/IRDS.2002.1041446",
+	localfile = "/home/ben/Dissertation/literature/bourgault2002iros_information-based-adaptive-robot-exploration.pdf"
+}
+
+@inproceedings{makarenko2002iros,
+	author = "Makarenko, A.A. and Williams, S.B. and Bourgault, F. and Durrant-Whyte, H.F.",
+	booktitle = "{Intelligent Robots and Systems, 2002. IEEE/RSJ International Conference on}",
+	doi = "10.1109/IRDS.2002.1041445",
+	localfile = "/home/ben/Dissertation/literature/makarenko2002iros-an_experiment_in_integrated_exploration.pdf",
+	note = "Active Exploration, where to go: Information Gain, Navigation Cost, Localization Quality (Covariances). Pioneer, 2D",
+	pages = "534–539 vol.1",
+	title = "{An experiment in integrated exploration}",
+	volume = "1",
+	year = "2002"
 }
